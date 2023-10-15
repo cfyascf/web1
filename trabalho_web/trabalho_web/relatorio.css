@@ -5,7 +5,7 @@ body, h2, p, button {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #aefcb8d0;
+    background-color: #aefcb8;
     text-align: center;
 }
 
@@ -133,22 +133,25 @@ h1 {
     text-align: center;
     height: 7vh;
     width: 100%;
-    max-width: 1300px;
+    max-width: 1400px;
     padding-top: 30px;
     background-color: #b58ef3b9;
     border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .mano{
     margin: auto;
 }
 .bloco{
-    margin: 5px auto;
+    margin: 15px auto;
     text-align: center;
     width: 95%;
     max-width: 1300px;
     padding: 20px;
     background-color: #b58ef3b9;
-    border-radius: 20px;    
+    border-radius: 20px;   
+    min-height: 250px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .titulo{
     padding-bottom: 20px;
@@ -198,7 +201,32 @@ h1 {
     border-top: #00aeff;
     border-left: #0077ff;
     border-right: #0084ff;
-
-
 }
-
+.mano2{
+    width: 95%;
+    height: 50vh;
+    margin: auto;
+    max-width: 1300px;
+}
+.bloco2{
+    margin: 5px auto;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    background-color: #b58ef3;
+    border-radius: 20px;   
+    min-height: 250px;
+    height: 100%;
+    box-shadow: 0 0 20px rgba(193, 2, 252, 1);
+}
+.linha2{
+    margin: 20px auto;
+    text-align: center; 
+    min-height: 70px;
+    width: 100%;
+    max-width: 1400px;
+    padding-top: 30px;
+    background-color: #b58ef3;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(193, 2, 252, 1);
+} 
