@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background-color: #b58ef3b9;
+    background-color: #b58ef3;
     color: #000000;
     padding: 20px;
     font-size: 24px;
@@ -36,7 +36,7 @@ button:hover {
 }
 
 nav {
-    background-color: #985ff575;
+    background-color: #995ff5;
     padding: 10px;
     display: flex;
     justify-content: left;

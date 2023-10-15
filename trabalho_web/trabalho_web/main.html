@@ -8,17 +8,11 @@
     body{
         background-image: url(./src/fotof.png);
     }
-    *{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+
 .center{
     display: flex;
     flex-wrap: wrap;
     max-width: 1280px;
-    margin: 5 auto;
     padding: 0 5%;
     text-align: left;
 }
@@ -27,30 +21,8 @@ html, body{
     overflow-y: hidden ;
     overflow-x: hidden ;
 }
-header{
-    height: 200px;
-    padding: 20px 0;   
-}
-.logo{
-    width: 50%;
-}
-.menu{
-    padding-top: 30px;
-    width: 50%;
-    text-align:right;
 
-}
-.menu a{
-    color: rgb(0, 0, 0);
-    background-color:rgb(217, 223, 133) ;
-    text-decoration: none;
-    border-radius: 10px;
-    font-weight: bold;
-    margin-right: 8px;
-    width: 90px;
-    height: 50px;
-    box-shadow: 2px 4px 5px 1px rgba(53, 50, 50, 0.568);
-}
+
 section.sobre{
    height: calc(100% - 200px) ; 
     position: relative;
@@ -63,12 +35,6 @@ section.sobre{
     height: 550px;
     border-radius: 50%;
     background-color: rgb(217, 223, 133);
-}
-.face{
-    position: absolute;
-   right: 1092px;
-    top: 53px;
-
 }
 .texto-sobre{
     margin-top: 1000px;
@@ -83,36 +49,45 @@ font-size: 14px;
 font-weight: bold;
 max-width:500px ;
 }
+.texto{
+    display: flex;
+            justify-content: flex-start; /* Isso alinhará à esquerda */
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+}
    </style>
+    <link rel="stylesheet" href="relatorio.css">
 </head>
 <body>
-    <header>
+        <header>
+            <h1>Adote um Animal</h1>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Início</a></li>
+                    <li><a href="grid.html">Adotar</a></li>
+                    <li><a href="#">Sobre Nós</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+                <nav class="social">
+                    <ul>
+                        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </nav>
+            </nav>
+        </header>
+    <section class="sobre">
+        <div class="add">
+            <img src="./src/cachorroP.png" width="500px">
+        </div>
         <div class="center">
-            <div class="logo"><img src="./src/cachorro.png" width="100" height="50" ></div>
-            <div class="menu">
-            <a href="#">home</a>
-            <a href="#">menu</a>
-            <a href="#">alguma coisa</a>
-            <a href="#">alguma coisa</a>
+            <div class="texto">
+                <h1>não compre, <br><span style="color: rgb(55, 125, 190);">ADOTE</span>!</h1>
             </div>
         </div>
-    </header>
-    <section class="rede">
-        <div class="face">
-            <div class=""><img src="./src/face.png" width="75" height="50" ></div>
-        </div>
-    </section>
-    <section class="sobre">
-<div class="add">
-<img src="./src/cachorroP.png" width="500" height="500">
-
-</div>
-<div class="center">
-    <div class="texto">
-        <h1>não compre, <br><span style="color: rgb(55, 125, 190);">ADOTE</span>!</h1>
-        <p>alguma coisa</p>
-    </div>
-</div>
     </section>
 </body>
 </html>
