@@ -129,19 +129,16 @@ h1 {
     color: #000000;
 }
 .linha{
-    margin: 5px auto;
+    margin: 20px auto;
     text-align: center;
-    height: 70px;
-    width: 95%;
+    height: 7vh;
+    width: 100%;
     max-width: 1300px;
-    padding: 20px;
+    padding-top: 30px;
     background-color: #b58ef3b9;
     border-radius: 20px;
 }
 .mano{
-    background-color: #b58ef3b9;
-    border-radius: 20px;    
-    max-width: 1300px;
     margin: auto;
 }
 .bloco{
@@ -150,6 +147,8 @@ h1 {
     width: 95%;
     max-width: 1300px;
     padding: 20px;
+    background-color: #b58ef3b9;
+    border-radius: 20px;    
 }
 .titulo{
     padding-bottom: 20px;
